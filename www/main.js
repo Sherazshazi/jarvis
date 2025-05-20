@@ -11,7 +11,17 @@ $(document).ready(function () {
             effect: "bounceOut",
     
         }
-    }
+    })
+  var siriWave = new siriWave({
+    container: document.getElementById("siri-container"),
+    width: 640,
+    height: 200,
+})
 
-    )
+var siriWave = new SiriWave({
+    container: document.getElementById("siri-container"),
+    width: 640,
+    height: 200,
+  })
+  
 });
